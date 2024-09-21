@@ -1,7 +1,7 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 
-/* Now you can use both fonts in your styles */
+
 h1 {
     font-family: 'Oswald', sans-serif;
 }
@@ -62,6 +62,17 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*navbar styles with drop down menu */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding 0 1rem
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 /*main content*/
