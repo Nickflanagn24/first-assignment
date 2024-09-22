@@ -124,6 +124,86 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+/* section1 */
+#section1-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 30px; /* Space between text and image */
+    width: 100%; /* Full width of the viewport */
+    max-width: 100%; /* No width constraint */
+    margin: 0; /* Removes any automatic margin */
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+}
+
+/* Styling the text section */
+#section1-text {
+    flex: 1; /* Makes the text section take up available space */
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+#section1-text h2, #section1-text h3 {
+    margin: 0 0 10px;
+}
+
+#section1-text p {
+    line-height: 1.6;
+}
+
+/* Styling the image section */
+#img-section1 {
+    flex: 1; /* Makes image section take up the remaining space */
+}
+
+#img-section1 img {
+    width: 100%; /* Ensures the image takes up full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+    #section1-main {
+        flex-direction: column; /* Stacks the text and image vertically */
+        align-items: center;
+        padding: 15px;
+    }
+
+    #section1-text, #img-section1 {
+        max-width: 100%; /* Both sections take up full width */
+    }
+
+    #img-section1 img {
+        margin-top: 20px; /* Adds space between text and image */
+    }
+}
+
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+    #section1-main {
+        flex-direction: column; /* Stacks the text and image vertically */
+        align-items: center;
+        padding: 15px;
+    }
+
+    #section1-text, #img-section1 {
+        max-width: 100%; /* Makes both sections take up full width */
+    }
+
+    #img-section1 img {
+        margin-top: 20px; /* Adds space between text and image */
+    }
+}
+
+
 
 /* footer*/
 #social-networks {
@@ -181,6 +261,7 @@ main {
     right: 50px;
     
 }
+
 }
 
 
