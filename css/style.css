@@ -131,7 +131,7 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    gap: 30px; /* Space between text and image */
+    gap: 15px; /* Space between text and image */
     width: 100%; /* Full width of the viewport */
     max-width: 100%; /* No width constraint */
     margin: 0; /* Removes any automatic margin */
