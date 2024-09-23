@@ -138,7 +138,7 @@ main {
     box-sizing: border-box; /* Ensures padding is included in width calculations */
 }
 
-/* Styling the text section */
+/* Styling the text section 1 */
 #section1-text {
     flex: 1; /* Makes the text section take up available space */
     padding: 20px;
@@ -166,6 +166,64 @@ main {
     height: auto; /* Maintains aspect ratio */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* section 3 skills and training */
+
+
+#skills-training h2 {
+    font-family: 'Oswald', sans-serif; /* Specific font for the heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 30px; /* Space below the heading */
+    text-align: center;
+}
+
+/*section 4 daily schedule */
+#schedule {
+    background-color: #f7f9fc; /* Light background */
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#schedule h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+
+.schedule-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule-list li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 5px solid #e63946;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.schedule-list li:hover {
+    background-color: #e9ecef;
+}
+
+.schedule-list .time {
+    font-weight: bold;
+    color: #e63946; /* Highlighted time color */
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Responsive design for tablets and smaller screens */
