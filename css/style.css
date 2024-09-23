@@ -203,6 +203,30 @@ main {
     }
 }
 
+/* Meetup Times section */
+#skills {
+    background: url('../images/skillslessons.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* this will not wrap on screens less than 400px wide */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* creates grid around each over background image */
+    border: solid white;
+}
+
+#skills h3 {
+    /* override the setting in the general settings */
+    color: #fafafa;
+}
 
 
 /* footer*/
