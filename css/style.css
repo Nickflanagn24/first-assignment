@@ -300,6 +300,36 @@ button[type="submit"]:hover {
     background-color: #45a049;
 }
 
+/* conact detail boxes - contact page */
+#contact-info {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Spaces out the boxes evenly */
+    gap: 20px; /* Space between the boxes */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+.info-box {
+    flex: 1 1 200px; /* Flex grow, shrink, and basis for responsive boxes */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    min-width: 200px; /* Minimum width for boxes */
+    display: flex; /* Enables flexbox for centering */
+    flex-direction: column; /* Aligns items in a column */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within the box */
+}
+
+.info-box iframe {
+    border-radius: 10px; /* Rounded corners for the iframe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the iframe */
+    width: 100%; /* Ensure the iframe takes the full width of the box */
+    height: 250px; /* Set a fixed height for the iframe */
+}
+
 /* Responsive design for tablets and smaller screens */
 @media (max-width: 768px) {
     #section1-main {
