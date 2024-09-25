@@ -242,6 +242,80 @@ main {
     font-family: 'Oswald', sans-serif;
 }
 
+
+
+/* ABOUT page styling */
+section.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+section.content div {
+    flex: 1;
+    padding: 20px;
+}
+
+section.content img {
+    flex: 1;
+    max-width: 50%; /* Adjust the image width relative to the section */
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners for images */
+}
+
+/* ABOUT US _coaches section */
+.mattp, .maxrob {
+    display: flex; /* Use flexbox for layout */
+    margin: 20px 0; /* Space between sections */
+}
+
+.mattp-text, .maxrobtext {
+    flex: 1; /* Makes the text section take up available space */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+}
+
+.mattp-text h3, .maxrobtext h3 {
+    margin: 0 0 10px; /* Spacing for headings */
+}
+
+.mattp-text p, .maxrobtext p {
+    line-height: 1.6; /* Improved readability */
+}
+
+.image-matt, .maxrobimg {
+    flex: 1; /* Makes image section take up the remaining space */
+    display: flex; /* Use flex to align items */
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+}
+
+.image-matt img, .maxrobimg img {
+    width: 80%; /* Set a percentage for the image width */
+    max-width: 800px; /* Set a maximum width to prevent stretching */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+/* Styling the image section */
+#img-section1 {
+    flex: 1; /* Makes image section take up the remaining space */
+}
+
+#img-section1 img {
+    width: 100%; /* Ensures the image takes up full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Container for the contact form on contact page */
 #signup-form {
     max-width: 600px;
@@ -404,6 +478,23 @@ button[type="submit"]:hover {
 #skills h3 {
     /* override the setting in the general settings */
     color: #fafafa;
+}
+
+/* ABOUT US main content */
+
+.mattp, .maxrob {
+    flex-direction: column; /* Stack elements in a column on smaller screens */
+    align-items: center; /* Center items horizontally */
+}
+
+.mattp-text, .maxrobtext {
+    width: 100%; /* Full width for text sections */
+    margin-bottom: 20px; /* Space between text and image */
+}
+
+.image-matt, .maxrobimg {
+    width: 100%; /* Full width for image sections */
+    justify-content: center; /* Center images */
 }
 
 
