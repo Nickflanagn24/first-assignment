@@ -420,6 +420,38 @@ button[type="submit"]:hover {
     height: 250px; /* Set a fixed height for the iframe */
 }
 
+/* CONTACT-SENT page */
+.thank-you-section {
+    display: flex;                     /* Use flexbox for centering */
+    justify-content: center;           /* Center horizontally */
+    align-items: center;               /* Center vertically */
+    min-height: 50vh;                /* Full height of the viewport */
+    padding: 20px;                    /* Add padding for spacing */
+    background-color: #f9f9f9;        /* Optional: Light background for contrast */
+}
+
+.thank-you-container {
+    text-align: center;                /* Center text inside the container */
+    padding: 40px;                    /* Inner padding for the container */
+    background-color: white;           /* White background for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 10px;              /* Rounded corners for the box */
+    max-width: 600px;                 /* Set a max-width for the box */
+    width: 100%;                      /* Full width within the max-width */
+    margin: 20px auto;                /* Space above and below the box */
+}
+
+.thank-you-container h1 {
+    font-size: 2.5em; /* Large font size */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark text color */
+}
+
+.thank-you-container p {
+    font-size: 1.2em; /* Medium font size */
+    color: #666; /* Gray text color */
+}
+
 /* Responsive design for tablets and smaller screens */
 @media (max-width: 768px) {
     #section1-main {
