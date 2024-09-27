@@ -31,7 +31,7 @@ h1, h2, h3 {
     font-family: 'Oswald', 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #003399;
 }
 
 }
@@ -70,13 +70,14 @@ header a {
 /*navbar styles with drop down menu */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: white;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    color:#003399;
 }
 
 /*nav toggle*/
@@ -125,7 +126,7 @@ main {
 
 #cover-text {
     /* last digit sets the opacity so its semi transparent */
-    background-color: rgba(230, 57, 71, 0.7);
+    background-color: rgba(39,68,136, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 250px;
@@ -189,7 +190,7 @@ main {
 
 #skills-training h2 {
     font-family: 'Oswald', sans-serif; /* Specific font for the heading */
-    color: #333; /* Dark text color */
+    color: #003399; 
     margin-bottom: 30px; /* Space below the heading */
     text-align: center;
 }
@@ -208,7 +209,7 @@ main {
 #schedule h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    color: #333;
+    color: #003399;
     margin-bottom: 20px;
     letter-spacing: 1px;
 
@@ -226,7 +227,7 @@ main {
     margin: 15px 0;
     padding: 15px;
     background-color: #fff;
-    border-left: 5px solid #e63946;
+    border-left: 5px solid #003399;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
@@ -238,7 +239,7 @@ main {
 
 .schedule-list .time {
     font-weight: bold;
-    color: #e63946; /* Highlighted time color */
+    color: #003399; /* Highlighted time color */
     font-family: 'Oswald', sans-serif;
 }
 
@@ -376,7 +377,7 @@ button[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px 0;
-    background-color: #4CAF50;
+    background-color: #003399;
     color: white;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -387,7 +388,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #00256e;
 }
 
 /* conact detail boxes - contact page */
@@ -401,7 +402,7 @@ button[type="submit"]:hover {
 
 .info-box {
     flex: 1 1 200px; /* Flex grow, shrink, and basis for responsive boxes */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: white; /* Light background color */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Padding inside the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -427,14 +428,14 @@ button[type="submit"]:hover {
     align-items: center;               /* Center vertically */
     min-height: 50vh;                /* Full height of the viewport */
     padding: 20px;                    /* Add padding for spacing */
-    background-color: #f9f9f9;        /* Optional: Light background for contrast */
+    background-color: #003399;        /* Optional: Light background for contrast */
 }
 
 .thank-you-container {
     text-align: center;                /* Center text inside the container */
     padding: 40px;                    /* Inner padding for the container */
     background-color: white;           /* White background for the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    box-shadow: 0 4px 8px rgba(223, 225, 232, 0.1); /* Box shadow for depth */
     border-radius: 10px;              /* Rounded corners for the box */
     max-width: 600px;                 /* Set a max-width for the box */
     width: 100%;                      /* Full width within the max-width */
@@ -451,24 +452,6 @@ button[type="submit"]:hover {
     font-size: 1.2em; /* Medium font size */
     color: #666; /* Gray text color */
 }
-
-/* Responsive design for tablets and smaller screens */
-@media (max-width: 768px) {
-    #section1-main {
-        flex-direction: column; /* Stacks the text and image vertically */
-        align-items: center;
-        padding: 15px;
-    }
-
-    #section1-text, #img-section1 {
-        max-width: 100%; /* Both sections take up full width */
-    }
-
-    #img-section1 img {
-        margin-top: 20px; /* Adds space between text and image */
-    }
-}
-
 
 /* Responsive design for tablets and smaller screens */
 @media (max-width: 768px) {
@@ -542,7 +525,7 @@ button[type="submit"]:hover {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: aqua;
+    color: #003399;
 }
 
 /*sign uo form on contact page (smaller screens) */
@@ -593,7 +576,6 @@ button[type="submit"]:hover {
     
 }
 
-}
 
 
 
