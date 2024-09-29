@@ -587,4 +587,7 @@ button[type="submit"]:hover {
     #menu li a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    .schedule-list li {
+        text-align: left;
+      }
 }
