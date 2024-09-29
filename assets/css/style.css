@@ -17,7 +17,7 @@ body {
 }
 
     /* general style*/
-    body {
+body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@ body {
     h1,
     h2,
     h3 {
-        font-family: 'Oswald', 'Poppins', sans-serif;
+        font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #003399;
@@ -129,7 +129,7 @@ body {
         background-size: cover;
     }
 
-    /* Hero section for contact page */
+    /* Hero section for about */
     #hero-about {
         height: 100vh;
         width: 100%;
