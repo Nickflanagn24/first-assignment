@@ -21,31 +21,41 @@ The planning of the Kick and Connect Football Camp website was a thoughtful proc
 
 ## Features
 
-### Hero image
+### Hero images
+![hero image demo](/assets/images/hero-image-readme.webp)
 The hero images used on the Kick and Connect Football Camp website are highly effective because they immediately capture the essence of the camp, showcasing the excitement and energy of soccer. These visually engaging images create an inviting atmosphere, grabbing the attention of both children and their parents, which aligns with the target audience. By using dynamic action shots and scenes related to the sport, the hero images help to build a connection with the audience, sparking interest and enthusiasm for joining the camp.
 
 ### intro to the camp
+![intro camp](/assets/images/intro-index-readme.webp)
 The intro and image on the index page work well to engage visitors by immediately showcasing the camp's focus on football. The clear and concise text provides key information about the camp, while the image reflects the energetic and fun atmosphere. Together, they create a welcoming first impression, drawing in the target audience of children and parents interested in a football camp that emphasizes skill-building and teamwork.
 
 ### skills and training 
+![skills and training screenshot](/assets/images/skills-training-readme.webp)
 The skills and training section is ideal for the target audience, showcasing the camp's focus on improving football techniques and teamwork. Its responsive design ensures easy access across devices, making it convenient for both parents and kids to learn about the camp’s offerings, building excitement and trust.
 
 ### daily schedule
+![daily scchedule screenshot](/assets/images/daily-schedule-readme.webp)
 The daily schedule section provides a clear breakdown of the camp's activities, helping parents and kids understand what to expect. Its responsive layout ensures the schedule is easy to read on any device, making it accessible and convenient for busy families.
 
 ### about the academy
+![about the academy screenshot](/assets/images/about-readme.webp)
 The about page offers valuable insight into the camp’s mission, coaches, and overall goals, helping parents and participants feel confident in their decision to join.
 
 ### meet the coaches
+![meet the coaches screenshot](/assets/images/meet-the-coaches-readme.webp)
 The "About the Coaches" section highlights the expertise and qualifications of the coaches, Matt Pearson and Max Robertson, which builds trust with the audience. By showcasing their experience with professional football teams, the section reassures parents and participants that they are in capable hands. Its responsive layout ensures the content is accessible and engaging on all devices, reinforcing confidence and credibility.
 
 ### contact form 
-The contact form is designed to facilitate communication between prospective attendees and the camp, allowing users to easily share their inquiries or requests. Upon submission, the form redirects to a thank-you page, confirming receipt of their message. This demo form simulates functionality, as a real implementation would store the information in a database for efficient management and follow-up.
+![contact form screenshot](/assets/images/contact-form-readme.webp)
+
+The contact form is designed to facilitate communication between prospective attendees and the camp, allowing users to easily share their inquiries or requests. Upon submission, the form redirects to a thank-you page, confirming receipt of their message. This demo form simulates functionality, as a real implementation would store the information in a database for efficient management and follow-up. The button has been styled in the brands colours.
 
 ### contact details
+![contact details](/assets/images/contact-deatils-readme.webp)
 The contact information section is crucial for the target audience, offering clear details about the Kick and Connect Football Camp. By providing the camp's location, email address, and phone number, potential attendees can easily reach out for inquiries. The embedded Google Maps feature allows users to visualize the camp's location and get directions, enhancing usability and building trust in the camp's professionalism.
 
 ### Footer
+![schedule screenshot](/assets/images/footer-readme.webp)
 
 The footer of the Kick and Connect Football Camp website enhances user experience by providing social media links that allow parents and young athletes to easily connect with the camp's online presence. This fosters community engagement, enabling users to follow updates, share experiences, and stay informed about events. The recognisable icons improve usability, ensuring quick access to preferred platforms. Overall, the footer not only boosts the camp's visibility but also builds trust and rapport with the audience, helping them feel more connected to the camp's activities.
 
@@ -60,10 +70,10 @@ No errors were returned when passing through the offical W3C [W3C CSS checker](h
 
 #### Lighthouse test
 ##### Mobile test
-[Lighthouse mobile site test](/assets/images/lighthouse-mobile.webp)
+![Lighthouse mobile site test](/assets/images/lighthouse-mobile.webp)
 
 ##### Desktop test 
-[Lighthouse desktop test](/assets/images/lighthouse-desktop.webp)
+![Lighthouse desktop test](/assets/images/lighthouse-desktop.webp)
 
 
 The Kick and Connect Football Camp website underwent thorough testing using HTML and CSS validators to ensure it met web standards and performed efficiently across different browsers. I used an HTML validator to check the structure and ensure that all elements were properly nested and free from errors, enhancing the website's overall functionality. Additionally, I employed a CSS validator to verify that the styling code was accurate and compliant with best practices. This process helped identify and fix any potential issues in the code, ensuring the website’s layout and design would render consistently on all devices. By conducting these validations, I ensured the website maintained a high level of quality and reliability.
