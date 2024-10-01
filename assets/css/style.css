@@ -303,7 +303,7 @@ body {
     .mattp-text h3,
     .maxrobtext h3 {
         margin: 0 0 10px;
-        /* Spacing for headings */
+        text-align: center;
     }
 
     .mattp-text p,
