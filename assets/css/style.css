@@ -142,7 +142,7 @@ main {
     background-color: rgba(39, 68, 136, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 250px;
+    bottom: 150px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -607,7 +607,7 @@ button[type="submit"]:hover {
 
     /* Hero */
     #cover-text {
-        width: 400px;
+        width: 300px;
         right: 50px;
     }
 
