@@ -20,6 +20,9 @@ The planning of the Kick and Connect Football Camp website was a thoughtful proc
 
 ## Features
 
+### Navigation
+The navigation on our website is designed to be simple and user-friendly, ensuring an intuitive browsing experience. With a clean layout and clear links, users can easily navigate between sections. On mobile devices, the navigation seamlessly collapses into a convenient burger menu, keeping the design uncluttered while maintaining full functionality. The menu is fully responsive, adapting to different screen sizes to provide a consistent and smooth experience across all devices.
+
 ### Hero images
 ![hero image demo](docs/hero-image-readme.webp)
 The hero images used on the Kick and Connect Football Camp website are highly effective because they immediately capture the essence of the camp, showcasing the excitement and energy of soccer. These visually engaging images create an inviting atmosphere, grabbing the attention of both children and their parents, which aligns with the target audience. By using dynamic action shots and scenes related to the sport, the hero images help to build a connection with the audience, sparking interest and enthusiasm for joining the camp.
@@ -58,27 +61,37 @@ The contact information section is crucial for the target audience, offering cle
 
 The footer of the Kick and Connect Football Camp website enhances user experience by providing social media links that allow parents and young athletes to easily connect with the camp's online presence. This fosters community engagement, enabling users to follow updates, share experiences, and stay informed about events. The recognisable icons improve usability, ensuring quick access to preferred platforms. Overall, the footer not only boosts the camp's visibility but also builds trust and rapport with the audience, helping them feel more connected to the camp's activities.
 
-
+### Accessibility
+Our website is designed for accessibility, providing a smooth experience for users with visual impairments or those using screen readers. We use high-contrast colors, legible fonts, and fully support keyboard navigation to enhance readability and ease of use. All images include descriptive alt text, and the site structure follows semantic HTML elements like <header>, <nav>, and <main>, helping screen readers understand the content better. These features ensure a more inclusive, user-friendly experience for everyone.
 
 ## Testing
+The Kick and Connect Football Camp website underwent thorough testing using HTML and CSS validators to ensure it met web standards and performed efficiently across different browsers. I used an HTML validator to check the structure and ensure that all elements were properly nested and free from errors, enhancing the website's overall functionality. Additionally, I employed a CSS validator to verify that the styling code was accurate and compliant with best practices. This process helped identify and fix any potential issues in the code, ensuring the website’s layout and design would render consistently on all devices. By conducting these validations, I ensured the website maintained a high level of quality and reliability.
+
+In addition to using HTML and CSS validators, the Kick and Connect Football Camp website was tested with Google DevTools to ensure it was fully responsive and performed well across different screen sizes. I used the responsive design mode within DevTools to simulate how the website would look and function on various devices, from desktops to tablets and smartphones. This allowed me to identify and address any layout issues or breakpoints that needed adjustment. By testing across a range of screen sizes, I ensured the website delivers a smooth, user-friendly experience, regardless of the device being used.
+
 #### HTML
-No errors were returned when passing through the offical [W3 Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F)
+Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the offical [W3 Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F)
 
 #### CSS
-No errors were returned when passing through the offical W3C [W3C CSS checker](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the offical [W3C CSS checker](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-#### Lighthouse test
+### Wave evaluation test
+![Wave Test](docs/wave-test.webp)
+After using the W3 checkers I also ran each page through Wave evaluation tool as seen in the picture.  This was to ensure and confirm that no bugs were missed so the each page would preform how I wanted it to.
+
+
+#### Google Lighthouse test
 ##### Mobile test
 ![Lighthouse mobile site test](docs/lighthouse-mobile.webp)
 
 ##### Desktop test 
 ![Lighthouse desktop test](docs/lighthouse-desktop.webp)
 
+Each page then was test separately here are the results
+![Google Lighthouse test result](docs/lighthouse-test.webp)
 
-The Kick and Connect Football Camp website underwent thorough testing using HTML and CSS validators to ensure it met web standards and performed efficiently across different browsers. I used an HTML validator to check the structure and ensure that all elements were properly nested and free from errors, enhancing the website's overall functionality. Additionally, I employed a CSS validator to verify that the styling code was accurate and compliant with best practices. This process helped identify and fix any potential issues in the code, ensuring the website’s layout and design would render consistently on all devices. By conducting these validations, I ensured the website maintained a high level of quality and reliability.
-
-In addition to using HTML and CSS validators, the Kick and Connect Football Camp website was tested with Google DevTools to ensure it was fully responsive and performed well across different screen sizes. I used the responsive design mode within DevTools to simulate how the website would look and function on various devices, from desktops to tablets and smartphones. This allowed me to identify and address any layout issues or breakpoints that needed adjustment. By testing across a range of screen sizes, I ensured the website delivers a smooth, user-friendly experience, regardless of the device being used.
-
+### Browser testing
+All the pages individually were tested on different screen sizes and on different browsers. They were tested on Chrome, Firefox and Microsoft Edge. This was done to make sure ll user get a great user experience.
 
 ## Found bugs and fixes
 
@@ -110,7 +123,7 @@ In addition to using HTML and CSS validators, the Kick and Connect Football Camp
 + Bug: A section on the About page was left open
 + Fix: Added a close section tag
 
-7) **Section without heading**
+8) **Section without heading**
 + Bug: A section without a heading
 + Fix: I changed the section to a div attribute
 
