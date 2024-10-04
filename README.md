@@ -18,8 +18,8 @@ The planning of the Kick and Connect Football Camp website was a thoughtful proc
 ![contact wireframe](docs/contact-wireframe.webp)
 
 ### Colours & Contrasts 
+The colours have been chosen as they are similar to what would be used on a football kit.  This makes the branding feel familiar to people wanting to find a football camp.  As seen in the image below, the white on blue and blue and white have scored very well.  The blue-on-black scored low on the contrast score.  This means the main colours will be blue and white with black being used for accents and black text on white background.  By avoiding the blue text on a black background we ensure that useability is maintained at a high standard.
 ![Colour contrasts](docs/colour-contrast.webp)
-The colours have been chosen as they are similar to what would be used on a football kit.  This makes the branding feel familiar to people wanting to find a football camp.  As seen in the image the white on blue and blue and white have scored very well.  The blue-on-black scored low on the contrast score.  This means the main colours will be blue and white with black being used for accents and black text on white background.  By avoiding the blue text on a black background we ensure that useability is maintained at a high standard.
 
 ## Features
 
