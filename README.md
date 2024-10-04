@@ -17,42 +17,45 @@ The planning of the Kick and Connect Football Camp website was a thoughtful proc
 ### Contact Wireframe
 ![contact wireframe](docs/contact-wireframe.webp)
 
+### Colours & Contrasts 
+![Colour contrasts](docs/colour-contrast.webp)
+The colours have been chosen as they are similar to what would be used on a football kit.  This makes the branding feel familiar to people wanting to find a football camp.  As seen in the image the white on blue and blue and white have scored very well.  The blue-on-black scored low on the contrast score.  This means the main colours will be blue and white with black being used for accents and black text on white background.  By avoiding the blue text on a black background we ensure that useability is maintained at a high standard.
 
 ## Features
 
 ### Navigation
 The navigation on our website is designed to be simple and user-friendly, ensuring an intuitive browsing experience. With a clean layout and clear links, users can easily navigate between sections. On mobile devices, the navigation seamlessly collapses into a convenient burger menu, keeping the design uncluttered while maintaining full functionality. The menu is fully responsive, adapting to different screen sizes to provide a consistent and smooth experience across all devices.
 
-### Hero images
+### Hero Images
 ![hero image demo](docs/hero-image-readme.webp)
 The hero images used on the Kick and Connect Football Camp website are highly effective because they immediately capture the essence of the camp, showcasing the excitement and energy of soccer. These visually engaging images create an inviting atmosphere, grabbing the attention of both children and their parents, which aligns with the target audience. By using dynamic action shots and scenes related to the sport, the hero images help to build a connection with the audience, sparking interest and enthusiasm for joining the camp.
 
-### Intro to the camp
+### Intro To The Camp
 ![intro camp](docs/intro-index-readme.webp)
 The intro and image on the index page work well to engage visitors by immediately showcasing the camp's focus on football. The clear and concise text provides key information about the camp, while the image reflects the energetic and fun atmosphere. Together, they create a welcoming first impression, drawing in the target audience of children and parents interested in a football camp that emphasizes skill-building and teamwork.
 
-### Skills and training 
+### Skills and Training 
 ![skills and training screenshot](docs/skills-training-readme.webp)
 The skills and training section is ideal for the target audience, showcasing the camp's focus on improving football techniques and teamwork. Its responsive design ensures easy access across devices, making it convenient for both parents and kids to learn about the camp’s offerings, building excitement and trust.
 
-### Daily schedule
+### Daily Schedule
 ![daily scchedule screenshot](docs/daily-schedule-readme.webp)
 The daily schedule section provides a clear breakdown of the camp's activities, helping parents and kids understand what to expect. Its responsive layout ensures the schedule is easy to read on any device, making it accessible and convenient for busy families.
 
-### About the academy
+### About The Academy
 ![about the academy screenshot](docs/about-readme.webp)
-The about page offers valuable insight into the camp’s mission, coaches, and overall goals, helping parents and participants feel confident in their decision to join.
+The About page offers valuable insight into the camp’s mission, coaches, and overall goals, helping parents and participants feel confident in their decision to join.
 
-### Meet the coaches
+### Meet The Coaches
 ![meet the coaches screenshot](docs/meet-the-coaches-readme.webp)
 The "About the Coaches" section highlights the expertise and qualifications of the coaches, Matt Pearson and Max Robertson, which builds trust with the audience. By showcasing their experience with professional football teams, the section reassures parents and participants that they are in capable hands. Its responsive layout ensures the content is accessible and engaging on all devices, reinforcing confidence and credibility.
 
-### Contact form 
+### Contact Form 
 ![contact form screenshot](docs/contact-form-readme.webp)
 
-The contact form is designed to facilitate communication between prospective attendees and the camp, allowing users to easily share their inquiries or requests. Upon submission, the form redirects to a thank-you page, confirming receipt of their message. This demo form simulates functionality, as a real implementation would store the information in a database for efficient management and follow-up. The button has been styled in the brands colours.
+The contact form is designed to facilitate communication between prospective attendees and the camp, allowing users to easily share their inquiries or requests. Upon submission, the form redirects to a thank-you page, confirming receipt of their message. This demo form simulates functionality, as a real implementation would store the information in a database for efficient management and follow-up. The button has been styled in the brand's colours.
 
-### Contact details
+### Contact Details
 ![contact details](docs/contact-deatils-readme.webp)
 The contact information section is crucial for the target audience, offering clear details about the Kick and Connect Football Camp. By providing the camp's location, email address, and phone number, potential attendees can easily reach out for inquiries. The embedded Google Maps feature allows users to visualize the camp's location and get directions, enhancing usability and building trust in the camp's professionalism.
 
@@ -70,30 +73,30 @@ The Kick and Connect Football Camp website underwent thorough testing using HTML
 In addition to using HTML and CSS validators, the Kick and Connect Football Camp website was tested with Google DevTools to ensure it was fully responsive and performed well across different screen sizes. I used the responsive design mode within DevTools to simulate how the website would look and function on various devices, from desktops to tablets and smartphones. This allowed me to identify and address any layout issues or breakpoints that needed adjustment. By testing across a range of screen sizes, I ensured the website delivers a smooth, user-friendly experience, regardless of the device being used.
 
 #### HTML
-Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the offical [W3 Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F)
+Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the officail [W3 Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F)
 
 #### CSS
-Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the offical [W3C CSS checker](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Every page was tested individually.  Home.html, about.html, contact.html, and contact-sent.html all passed with no errors were returned when passing through the officail [W3C CSS checker](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnickflanagn24.github.io%2Ffirst-assignment%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Wave evaluation test
+### Wave Evaluation Test
 ![Wave Test](docs/wave-test.webp)
-After using the W3 checkers I also ran each page through Wave evaluation tool as seen in the picture.  This was to ensure and confirm that no bugs were missed so the each page would preform how I wanted it to.
+After using the W3 checkers I also ran each page through [Wave evaluation](https://wave.webaim.org/) tool as seen in the picture.  This was to ensure and confirm that no bugs were missed so that each page would perform how I wanted it to.
 
 
-#### Google Lighthouse test
+#### Google Lighthouse Test
 ##### Mobile test
 ![Lighthouse mobile site test](docs/lighthouse-mobile.webp)
 
-##### Desktop test 
+##### Desktop Test 
 ![Lighthouse desktop test](docs/lighthouse-desktop.webp)
 
-Each page then was test separately here are the results
+Each page was then tested separately here are the results
 ![Google Lighthouse test result](docs/lighthouse-test.webp)
 
-### Browser testing
-All the pages individually were tested on different screen sizes and on different browsers. They were tested on Chrome, Firefox and Microsoft Edge. This was done to make sure ll user get a great user experience.
+### Browser Testing
+All the pages individually were tested on different screen sizes and on different browsers. They were tested on Chrome, Firefox and Microsoft Edge. This was done to make sure all users get a great user experience.
 
-## Found bugs and fixes
+## Found Bugs and Fixes
 
 1) **CSS File Not Linking with HTML**  
 + Bug: The CSS file wasn't loading properly.
@@ -119,11 +122,11 @@ All the pages individually were tested on different screen sizes and on differen
 + Bug: The text was not visible over the hero image.
 + Fix: Moved the #cover-text div inside the #hero section and added CSS to position it correctly.
 
-7) **Unclosed section**
+7) **Unclosed Section**
 + Bug: A section on the About page was left open
 + Fix: Added a close section tag
 
-8) **Section without heading**
+8) **Section Without Heading**
 + Bug: A section without a heading
 + Fix: I changed the section to a div attribute
 
@@ -134,9 +137,9 @@ The live link for the site can be found: [Click Here](https://nickflanagn24.gith
 
 ## Credits
 ### Content 
-+ Icons take from [Font Awesome](https://fontawesome.com/)
++ Icons taken from [Font Awesome](https://fontawesome.com/)
 + The footer code was taken from the Love Running Project.  The simplicity and how it stuck to the bottom of the screen. It was a great fit for the website.  
 
 ### Media
 + The images on the site were taken from [Canva](canva.com)
-+ The images where choosen to fit with the website brandings main colour #003399
++ The images were chosen to fit with the branding main colour #003399.

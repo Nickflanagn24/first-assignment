@@ -117,7 +117,7 @@ main {
 #hero-index {
     height: 100vh;
     width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center;
+    background: url("../images/hero.webp") no-repeat center center;
     background-size: cover;
     }
 
